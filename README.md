@@ -5,7 +5,7 @@ This plugin is used by CLI tools test suites.
 ## Building
 
 ``` shell
-gmake dist DIST_AS_EZ=1
+gmake dist DIST_AS_EZS=1
 ```
 
 then find the `.ez` file under `./plugins`:
