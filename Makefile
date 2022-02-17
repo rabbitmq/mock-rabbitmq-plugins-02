@@ -1,6 +1,6 @@
 PROJECT = mock_rabbitmq_plugins_02
 PROJECT_DESCRIPTION = A mock RabbitMQ plugin to be used in tests
-PROJECT_MOD = mock_rabbitmq_plugins_01_app
+PROJECT_MOD = mock_rabbitmq_plugins_02_app
 
 define PROJECT_ENV
 []
