@@ -1,4 +1,4 @@
-PROJECT = mock_rabbitmq_plugins_01
+PROJECT = mock_rabbitmq_plugins_02
 PROJECT_DESCRIPTION = A mock RabbitMQ plugin to be used in tests
 PROJECT_MOD = mock_rabbitmq_plugins_01_app
 
@@ -7,11 +7,11 @@ define PROJECT_ENV
 endef
 
 define PROJECT_APP_EXTRA_KEYS
-	{vsn, "0.1.0"},
-	{modules, ['mock_rabbitmq_plugins_01_app', 'mock_rabbitmq_plugins_01_sup']},
-	{registered, [mock_rabbitmq_plugins_01_sup]},
+	{vsn, "0.2.0"},
+	{modules, ['mock_rabbitmq_plugins_02_app', 'mock_rabbitmq_plugins_02_sup']},
+	{registered, [mock_rabbitmq_plugins_02_sup]},
 	{applications, [kernel, stdlib, rabbit]},
-	{mod, {mock_rabbitmq_plugins_01_app, []}},
+	{mod, {mock_rabbitmq_plugins_02_app, []}},
 	{broker_version_requirements, []}
 endef
 
